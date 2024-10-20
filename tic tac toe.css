@@ -1,0 +1,45 @@
+body{
+  background-color: whitesmoke;;
+}
+
+.result{
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  justify-self: center;
+  font-size: 30px;
+}
+
+.main-div{
+  display: grid;
+  grid-template-columns: repeat(3,150px);
+  grid-template-rows: repeat(3, 150px);
+  width: fit-content;
+  justify-self: center;
+  margin-top: 60px;
+}
+
+#cell{
+  height: 150px;
+  width: 150px;
+  border: solid black 5px;
+  font-size: 80px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+  background-color: rgb(0, 164, 164);
+}
+
+#cell:hover{
+  background-color: rgb(0, 138, 138);
+}
+
+#cell:active{
+  box-shadow: inset 0px 0px 50px rgba(255, 255, 255, 0.4);
+}
+
+.restat-button{
+  margin-top: 40px;
+  grid-column: span 3;
+  font-size: 24px;
+}
